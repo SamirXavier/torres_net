@@ -131,7 +131,8 @@ body.more-letter .buttons button{
     padding-right: 55px;
     border-radius: 10px;
     width: 300px;
-}
+    /* margin-top: 700px; */
+  }
 
 .register-form label {
     display: block;
@@ -327,6 +328,12 @@ footer a+a {
     text-decoration: underline;
   }
   
+/* @media (min-widht:400px) and (max-width:600px) {
+  
+    .register-form {
+      margin-bottom: 500px;
+    }
+} */
 
 @media (max-width:768px){
 
