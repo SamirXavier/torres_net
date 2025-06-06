@@ -74,7 +74,8 @@ body.contraste .menu-acessibilidade {
 }
 
 body.contraste .menu-acessibilidade button,
-body.contraste .menu-acessibilidade h3 {
+body.contraste .menu-acessibilidade h3,
+body.contraste .checklist-caracteristicas-senha ul li {
   color: #f1c40f;
 }
 
@@ -89,7 +90,8 @@ body.more-letter {
 
 body.more-letter .form-container button,
 body.more-letter .menu li a,
-body.more-letter .menu div a {
+body.more-letter .menu div a,
+body.more-letter .checklist-caracteristicas-senha ul li {
   font-size: 25px;
   width: auto;
   transition: all 300ms ease-in-out;
@@ -155,6 +157,7 @@ body.sublinhar a:active {
   height: 60px;
 
 }
+
 
 .menu-acessibilidade {
   display: flex;
