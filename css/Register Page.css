@@ -328,14 +328,8 @@ footer a+a {
     text-decoration: underline;
   }
   
-/* @media (min-widht:400px) and (max-width:600px) {
-  
-    .register-form {
-      margin-bottom: 500px;
-    }
-} */
 
-@media (max-width:768px){
+@media (max-width:720px){
 
     .main-content .logo img{
         width: 50%;
@@ -351,7 +345,9 @@ footer a+a {
     }
 
     .register-form {
-        padding-right: 0px;
+      margin-bottom: 100px;
+      margin-top: 500px;
+      padding-right: 0px;
     }
 
     .register-form #name {
@@ -441,8 +437,9 @@ footer a+a {
            
         }
 
-        .footer {
+        footer {
             width: 100%;
+            margin-top: 400px;
         }
 
      /* Quando o checkbox estiver marcado, mostrar o menu */
@@ -463,18 +460,11 @@ footer a+a {
         transform: translateY(-9px) rotate(-45deg);
         }
   }
-  
-/* Telas médias (481px a 768px) */
-/* @media (min-width: 481px) and (max-width: 768px) {
 
-  .img-container {
-    margin-top: 100px;
+@media (min-width: 721px) and (max-width: 1280px) {
+  .register-form{
+    margin-top: 300px;
   }
-
-} */
-
-/* Telas grandes (769px a 1280px) */
-@media (min-width: 769px) and (max-width: 1280px) {
 
   .img-container {
     margin-top: 50px;
