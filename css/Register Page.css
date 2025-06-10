@@ -20,6 +20,7 @@ body.dark .register-form{
 body.dark .register-form input{
   background-color: white;
   border: 2px solid black;
+  color: black;
 }
 
 /* Contraste */
@@ -41,6 +42,7 @@ body.contraste .register-form{
 body.contraste .register-form input{
   background-color: white;
   border: 2px solid black;
+  color: black;
 }
 
 /* Aumentar Fonte */
@@ -271,13 +273,11 @@ footer a+a {
     top: 20%;
     z-index: 4;
     cursor: pointer;
-   
   }
   
   .button-acessibilidade img {
     width: 60px;
     height: 60px;
-
   }
   
   .menu-acessibilidade{
@@ -390,7 +390,6 @@ footer a+a {
     right: 5%;
     z-index: 3;
     cursor: pointer;
-    
     }
 
     .hamburger-line {
@@ -462,10 +461,11 @@ footer a+a {
   }
 
 @media (min-width: 721px) and (max-width: 1280px) {
-  .register-form{
-    margin-top: 650px;
+ 
+ .menu-acessibilidade{
+   margin-left: 500px;
   }
-
+  
   .img-container {
     margin-top: 50px;
   }
@@ -475,7 +475,17 @@ footer a+a {
   }
 
   footer{
-    margin-top: 60%;
+    margin-top: 400px;
+  }
+
+  .register-form{
+    margin-top: 300px;
+  }
+  .button-acessibilidade{
+    margin-right: 30px;
+  }
+  .menu-acessibilidade.ativo{
+    margin-right: 0px;
   }
 
 }

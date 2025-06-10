@@ -411,6 +411,12 @@ footer a+a {
   .img-familia img{
     width: 100%;
   }
+   .button-acessibilidade{
+    margin-right: 30px;
+  }
+  .menu-acessibilidade.ativo{
+    margin-right: 0px;
+  }
 }
 
 

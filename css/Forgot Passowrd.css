@@ -458,6 +458,13 @@ footer a+a {
   .container {
     margin-bottom: 100px;
   }
+
+   .button-acessibilidade{
+    margin-right: 30px;
+  }
+  .menu-acessibilidade.ativo{
+    margin-right: 0px;
+  }
 }
 
 /* Telas grandes (769px a 1280px) */

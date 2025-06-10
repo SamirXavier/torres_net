@@ -386,6 +386,13 @@ footer a+a {
       width: 200px;
       height: 200px;
     }
+
+     .button-acessibilidade{
+    margin-right: 30px;
+  }
+  .menu-acessibilidade.ativo{
+    margin-right: 10%;
+  }
   
   }
   
