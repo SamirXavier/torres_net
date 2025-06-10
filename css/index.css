@@ -249,9 +249,9 @@ footer a+a {
 
    .menu-acessibilidade.ativo{
      opacity: 1;
-     transform: translateX(40px);
+     transform: translateX(40px) scale(1.2);
      pointer-events: auto;
-     transform: scale(1.2);
+     /* transform: scale(1.2); */
    }
    
    .menu-acessibilidade button{
@@ -432,4 +432,11 @@ footer a+a {
   .img-container {
     margin-top: 100px;
   }
+
+  .menu-acessibilidade {
+  position: fixed;
+  right: 0;
+  top: 10%;
+}
+
 }

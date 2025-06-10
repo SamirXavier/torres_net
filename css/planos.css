@@ -397,5 +397,9 @@ footer a+a {
       margin-top: 100px;
     }
   
-  
+      .menu-acessibilidade {
+  position: fixed;
+  right: 0;
+  top: 10%;
+}
   }

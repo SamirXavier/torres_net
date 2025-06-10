@@ -503,4 +503,10 @@ footer a+a {
     margin-bottom: 100px;
   }
 
+ .menu-acessibilidade {
+  position: fixed;
+  right: 150px;
+  top: 10%;
+}
+
 }

@@ -427,6 +427,12 @@ footer a+a {
     margin-bottom: 100px;
   }
 
+    .menu-acessibilidade {
+  position: fixed;
+  right: 0;
+  top: 10%;
+}
+
 }
   
   
