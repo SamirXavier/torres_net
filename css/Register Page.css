@@ -480,7 +480,7 @@ footer a+a {
   }
 
   footer{
-    margin-top: 400px;
+    margin-top: 500px;
   }
 
   .register-form{
@@ -489,9 +489,7 @@ footer a+a {
   .button-acessibilidade{
     margin-right: 30px;
   }
-  /* .menu-acessibilidade.ativo{
-    margin-left: 0px;
-  } */
+
 
 }
 
@@ -506,7 +504,15 @@ footer a+a {
  .menu-acessibilidade {
   position: fixed;
   right: 150px;
-  top: 10%;
-}
+  top: 10%;}
+
+
+.register-form{
+    margin-top: 300px;
+  }
+  footer{
+    margin-top: 400px;
+  }
 
 }
+
